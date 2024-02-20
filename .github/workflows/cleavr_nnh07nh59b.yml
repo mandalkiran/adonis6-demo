@@ -45,7 +45,7 @@ jobs:
 
       - name: Build app
         id: build-app
-        run: npm run mandal --production
+        run: npm run build --production
 
 ### ---  PLEASE DO NOT MODIFY ANYTHING BELOW THIS LINE --- ###
 
