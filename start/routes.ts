@@ -25,3 +25,7 @@ router.get('/users', async () => {
     users.map((u) => u.email)
   )
 })
+
+router.get('/test', async () => {
+  return await User.all()
+})
