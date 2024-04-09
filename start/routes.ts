@@ -13,7 +13,7 @@ router.on('/').render('pages/home')
 
 router.get('/users', async () => {
   const user = new User()
-  user.fullName = 'Anish Ghimire'
+  user.fullName = 'KIRAN MANDAL'
   user.email = `mand{Date.now()}@cleavr.io`
   user.password = 'password'
   await user.save()
